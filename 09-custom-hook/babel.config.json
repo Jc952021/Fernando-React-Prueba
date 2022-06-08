@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current" //creo que solo hace el ESM6 en el node actual
+        }
+      }
+    ]
+  ]
+}
